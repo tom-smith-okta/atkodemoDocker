@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
 
-MAINTAINER Tom Smith <tomgsmith99@gmail.com>
+MAINTAINER Tom Smith <tom.smith@okta.com>
 
-RUN /bin/echo "Hello, tom!"
+# run -i -t -v /Users/tomsmith/dockerTest:/dockerTest tom_smith_okta/atkodemo:v01
