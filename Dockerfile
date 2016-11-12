@@ -1,5 +1,5 @@
-FROM ubuntu:14.04
+FROM ubuntu
 
 MAINTAINER Tom Smith <tom.smith@okta.com>
 
-# run -i -t -v /Users/tomsmith/dockerTest:/dockerTest tom_smith_okta/atkodemo:v01
+RUN apt-get update && apt-get install -y apache2 git php
